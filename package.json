@@ -1,0 +1,23 @@
+{
+  "name": "kaluramportfolio",
+  "version": "1.0.0",
+  "description": "Hi viewers this is my portfolio website where my all technical skills and project are mentioned which you can go though that and check",
+  "main": "app.js",
+  "scripts": {
+
+    "build-css":"npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaluramkanesh/kaluramportfolioweb.git"
+  },
+  "author": "kaluram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaluramkanesh/kaluramportfolioweb/issues"
+  },
+  "homepage": "https://github.com/kaluramkanesh/kaluramportfolioweb#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
